@@ -1,30 +1,30 @@
 <script>
-	export let name;
+  import Header from './components/Header.svelte';
+  import Footer from './components/Footer.svelte';
+  import Hero from './sections/Hero.svelte';
+  import Features from './sections/Features.svelte';
+  import Cta from './sections/Cta.svelte';
+  import { navItems, metrics, featureCards } from './lib/content';
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<div class="page">
+  <Header {navItems} />
+  <main>
+    <Hero {metrics} />
+    <Features cards={featureCards} />
+    <Cta />
+  </main>
+  <Footer />
+</div>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+  main {
+    flex: 1;
+  }
 </style>
