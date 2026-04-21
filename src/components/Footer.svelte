@@ -1,28 +1,27 @@
 <footer class="footer">
-  <div class="container footer__inner">
-    <p>© 2026 Timeweb UI Starter</p>
-    <a href="https://timeweb.cloud/docs/apps">Документация</a>
+  <div class="container inner">
+    <p>Собрано на Svelte • 2026</p>
+    <a href="https://timeweb.cloud/docs/apps">timeweb.cloud/docs/apps</a>
   </div>
 </footer>
 
 <style>
   .footer {
-    border-top: 1px solid var(--color-border);
-    padding: 24px 0;
+    padding: 0 0 30px;
   }
 
-  .footer__inner {
+  .inner {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
-    align-items: center;
+    border-top: 1px solid var(--line);
+    padding-top: 18px;
   }
 
   p,
   a {
     margin: 0;
-    color: var(--color-text-muted);
-    font-size: var(--text-xs);
+    font-size: 13px;
+    color: var(--text-2);
     text-decoration: none;
   }
 </style>
