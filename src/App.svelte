@@ -231,7 +231,7 @@
               Проект «Особенная мама» создан для того, чтобы в момент растерянности семья не оставалась один на один с системой. Мы собираем актуальные данные фондов, переводим бюрократические алгоритмы на человеческий язык и публикуем реальные истории пути.
             </p>
 
-            <a href="#" class="mt-6 inline-flex items-center gap-2 border-b border-text pb-1 text-sm font-bold md:text-base">
+            <a href="#about" class="mt-6 inline-flex items-center gap-2 border-b border-text pb-1 text-sm font-bold md:text-base">
               <span>Подробнее о миссии</span>
               <span aria-hidden="true">›</span>
             </a>
@@ -317,7 +317,7 @@
           </div>
 
           <a
-            href="#"
+            href="#navigator"
             class="inline-flex w-fit items-center justify-center rounded-full bg-violet px-5 py-3 text-sm font-bold text-white shadow-glow transition hover:-translate-y-0.5 md:px-6 md:py-3.5">Открыть навигатор</a>
         </div>
 
@@ -389,8 +389,8 @@
           </div>
 
           <div class="flex flex-wrap gap-3">
-            <a href="#" class="inline-flex items-center rounded-full border border-line px-5 py-2.5 text-sm font-bold text-text">Все истории</a>
-            <a href="#" class="inline-flex items-center rounded-full bg-ink px-5 py-2.5 text-sm font-bold text-white shadow-soft">Читать материалы</a>
+            <a href="#stories" class="inline-flex items-center rounded-full border border-line px-5 py-2.5 text-sm font-bold text-text">Все истории</a>
+            <a href="#materials" class="inline-flex items-center rounded-full bg-ink px-5 py-2.5 text-sm font-bold text-white shadow-soft">Читать материалы</a>
           </div>
         </div>
 
@@ -636,18 +636,18 @@
           <h4 class="text-base font-bold">О проекте</h4>
           <ul class="mt-4 space-y-3 text-sm text-muted">
             <li><a href="#about">Миссия и команда</a></li>
-            <li><a href="#">Партнёрам и НКО</a></li>
-            <li><a href="#">Волонтёрство</a></li>
-            <li><a href="#">Отчёты</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#about">Партнёрам и НКО</a></li>
+            <li><a href="#about">Волонтёрство</a></li>
+            <li><a href="#about">Отчёты</a></li>
+            <li><a href="#about">Контакты</a></li>
           </ul>
         </div>
 
         <div>
           <h4 class="text-base font-bold">Соцсети</h4>
           <div class="mt-4 flex gap-4">
-            <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full border border-line text-text">✦</a>
-            <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full border border-line text-text">✧</a>
+            <a href="/" class="flex h-10 w-10 items-center justify-center rounded-full border border-line text-text">✦</a>
+            <a href="/" class="flex h-10 w-10 items-center justify-center rounded-full border border-line text-text">✧</a>
           </div>
         </div>
       </div>
@@ -655,8 +655,8 @@
       <div class="mt-10 flex flex-col gap-3 border-t border-line pt-6 text-xs text-muted md:flex-row md:items-center md:justify-between lg:mt-12 lg:pt-8">
         <p>© 2024 Проект «Особенная мама». Все права защищены.</p>
         <div class="flex flex-wrap gap-4">
-          <a href="#">Политика конфиденциальности</a>
-          <a href="#">Пользовательское соглашение</a>
+          <a href="/privacy">Политика конфиденциальности</a>
+          <a href="/terms">Пользовательское соглашение</a>
         </div>
       </div>
     </div>
